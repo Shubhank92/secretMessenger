@@ -21,6 +21,7 @@ form.addEventListener('submit', (e) => {
         document.querySelector('#form-div').classList.add('hide');
         document.querySelector('#link-div').classList.remove('hide');
         renderInput.value = `${window.location}#${encodedText}`;
+        alert('Copy the link below and share it with the person, the message was meant for!')
         renderInput.select();
     }
 })    
